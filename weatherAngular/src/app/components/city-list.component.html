@@ -1,0 +1,4 @@
+
+<!-- <div *ngFor="let c of cities" class="city-style" [routerLink]="['/','weather', c]">{{c}}</div> -->
+
+<div *ngFor="let c of cities" class="city-style" (click)="go(c)">{{c}}</div>
